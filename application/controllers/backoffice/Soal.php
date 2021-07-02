@@ -59,7 +59,7 @@ class Soal extends CI_Controller {
         $data = array(
                     'roles_id'  => $this->roles_id,
                     'clients'   => $this->M_clients->get_all_clients(),
-                    'title'     => 'Form',
+                    'title'     => 'Form Tambah',
                     'contents'  => $this->contents . 'add',
                 );
 
