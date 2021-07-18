@@ -98,6 +98,11 @@ if($jam >= 18){
                         <i class="fa fa-th-list"></i> Form
                     </a>
                 </li>
+                <li class="<?php echo (in_array($this->uri->segment(2), array('', 'form')) ? 'active' : '');?>">
+                    <a href="<?php echo base_url('backoffice/Soal/form');?>">
+                        <i class="fa fa-th-list"></i> Form User
+                    </a>
+                </li>
                 <li class="<?php echo (in_array($this->uri->segment(2), array('', 'clients')) ? 'active' : '');?>">
                     <a href="<?php echo base_url('backoffice/clients');?>">
                         <i class="fa fa-institution"></i> Clients
@@ -154,6 +159,11 @@ if($jam >= 18){
                             </a>
                         </li>
                     </ul>
+                </li>
+                <li class="<?php echo (in_array($this->uri->segment(2), array('', 'addfront')) ? 'active' : '');?>">
+                    <a href="<?php echo base_url('backoffice/addfront');?>">
+                        <i class="fa fa-th-list"></i> Form User
+                    </a>
                 </li>
                 <li class="<?php echo (in_array($this->uri->segment(2), array('', 'registers')) ? 'active' : '');?>">
                     <a href="<?php echo base_url('backoffice/registers');?>">
